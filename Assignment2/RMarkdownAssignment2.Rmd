@@ -1,0 +1,13 @@
+---
+title: "RMarkdownAssignment2"
+output: html_document
+---
+'''{r}
+
+library(readxl)
+data <- read_excel("‪C:\Users\Mustapha\Documents\SENIOR YEAR SIXTH SEMESTER\DACSS 601\R Code\Assignment  2\covid-responses.tab.xlsx", header=T)
+summary(data)
+
+
+
+'''
